@@ -1,0 +1,136 @@
+
+
+/* Title css*/
+#title {
+text-align: center;
+font-size: 45px;
+color: #04AA6D;
+}
+#title:hover { color: rgb(255, 38, 0); font-size: 46px;
+
+
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    font-size: 18px;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  #text1{
+    font-size: 20px;
+    padding: 30px;
+    width: 40%;
+    background-color: rgb(0, 195, 255);
+    border: 5px solid red;
+    border-radius: 10px;
+    display: table;
+    
+  }
+  
+  #text2 {
+    font-size: 20px;
+    background-color: rgb(243, 218, 74);
+    border-radius: 10px;
+    border: 5px solid red;  
+    box-sizing: border-box;
+width: 50%; padding: 30px;
+margin: -159px 0% 0% 50%;
+   
+  }
+
+  #heading1 {
+    text-align: center;
+    color: rgb(42, 187, 13);
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-color: rgb(240, 255, 29);
+    border-style: solid;
+    border-width: 5px;
+    padding: 6px;
+  }
+  #heading2{
+    font-size: 45px;
+   
+    color: rgb(255, 255, 255);
+   text-align: center;
+   margin: 40px 400px 40px 400px;
+   padding: 12px 10px 12px 10px;
+   border-radius: 10px;
+   background-color: rgb(48, 93, 177);
+  text-shadow: 5px 4px 5px rgb(0, 0, 0);
+  border: 5px solid rgb(255, 25, 25);
+  }
+  #ak{
+   
+    background-color: rgb(32, 156, 38);
+    width: 100%;
+    padding: 1px 1px 1px 1px;
+    border-radius: 10px;
+    font-size: 200px;
+    text-align: center;
+    border: 5px solid red;
+    text-shadow: 5px 6px red;
+    margin-top: 30px;
+    
+  }
+  #ak:hover {
+
+    border: 6px solid rgb(40, 115, 165);
+background-color: yellow;
+  }
+
+.footer {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 345px;
+  text-align: center;
+}
+.footer a {
+  color: rgb(255, 255, 255);
+  float: left;
+  margin: 25px;
+  text-decoration: none;
+  background-color: rgb(30, 172, 42);
+  border-radius: 6px;
+  padding: 7px;
+}
+.footer a:hover{
+color: #ff0000;
+background-color: azure;
+}
+.anchor{
+  float: right;
+}
+#logo {
+  width: 200px;
+  margin: 50px 10px 10px 500px;
+}
+#ok {
+  background-color: rgb(0, 0, 0);
+  width: auto;
+  height: 320px;
+}
