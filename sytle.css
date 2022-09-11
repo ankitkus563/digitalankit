@@ -1,8 +1,9 @@
 body{
 
-    background-color: gray;
+    background-color: #910000;
     margin: 0px;
     text-align: center;
+    height: 100%;
 }
 
 .navi {
@@ -13,12 +14,12 @@ body{
 
 
 .iccon{
-    height: 40px;
-    width: 40px;
+    height: 36px;
+    width: 157px;
     position: absolute;
-    top: 55px;
+    top: 50px;
     left: 10%;
-        transform: translate(-50%, -50%);
+    transform: translate(0, -32%);
 }
 .iccon img {
 
@@ -58,44 +59,19 @@ body{
    height: 650px;
     
 }
-
-.row {
-    display: flex;
-    width: 75%   
-
-  }
-  
-  .column {
-    flex: 50%;
-    text-align: left;
-    color: white;
-
-    
-  }
-  .column img {
-    
-width: 145px;
-    border-radius: 50%;
-margin: 5px 150px;
-   float: left;
-  }
-
 .footer{
-    position: fixed;
+    position: sticky;
     bottom: 0px;
-    background-color: rgb(7, 6, 6);
-    height: 100px;
+    background-color: rgb(5, 10, 14);
+    height: 112px;
     width: 100%;
 }
 .btnn-1{
-
     position: fixed;
-    right: 15px;
-    bottom: 15px;
+    right: 25px;
+    bottom: 25px;
     padding: 10px;
-    border-radius: 5px;
-    
-
+    border-radius: 7px;
     background-color: rgb(255, 230, 6);
 }
 
@@ -115,11 +91,10 @@ margin: 5px 150px;
     text-decoration: none;
 }
 .copy-rightt { 
-    
     position: absolute;
-    left: 55px; 
-    top: 30px;
-text-align: center;
+    left: 50px;
+    top: 50px;
+    text-align: center;
 }
 .copy-rightt a{
     background-color: yellow;
@@ -132,16 +107,123 @@ text-align: center;
 }
 
 .copy-rightt-2 { 
-    
-    color: white;
+    color: #ffe000;
     position: absolute;
-    right: 40%; 
-    bottom: 10px;
+    right: 39%;
+    bottom: 5px;
 
 }
 .copy-rightt-2 h3{
     font-size: 15px;
     font-family: sans-serif;
-    color: red;
 
 }
+.row 
+{
+   display: flex;
+   
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    width: 50%;
+    color: black;
+    background: yellow;
+    border-radius: 52px;  
+    /* Should be removed. Only for demonstration */
+  }
+  #column-1
+  {
+margin: 10px;
+padding: 50px;
+
+  }
+  #column-2
+  {
+margin: 10px;
+padding: 50px;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+
+    body{
+        height: auto;
+    }
+    .iccon {
+        height: 35px;
+        width: 157px;
+        position: absolute;
+        top: 40px;
+        left: 0%;
+        transform: translate(0, -32%);
+    }
+    .iccon img {
+    width: 150px;
+}
+
+
+    .column {
+      width: 100%;
+    color: black;
+     
+    }
+    
+
+
+    .row 
+    {
+       margin-right: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+       
+    }
+    
+    
+  .column img {
+    height: 165px;
+    border-radius: 50%;
+    width: auto;
+  }
+  
+.footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(5, 10, 14);
+    height: 50px;
+    width: 100%;
+}
+.copy-rightt {
+   display: none;
+}
+.btnn-1 {
+    display: none;
+}
+.copy-rightt-2 {
+    
+    text-align: center;
+    color: #ffe000;
+    position: relative;
+    right: 0px;
+    
+}
+  }
+  .column p {
+    text-align: center;
+  }
+  
+  .column img {
+    height: 165px;
+    border-radius: 50%;
+    /* margin: 21px 43px; */
+    /* float: left; */
+    /* align-items: end; */
+    /* text-align: center; */
+    width: auto;
+  }
